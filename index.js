@@ -8,6 +8,9 @@ let stpbl2 = document.getElementById("stepbl2");
 let stpbrd2 = document.getElementById("step-border2");
 
 
+stpbl1.onmouseover = function(){
+    stpbrd1.style.borderBottom = "3px solid #fff";
+}
 stpbl1.onmouseout = function(){
     stpbrd1.style.borderBottom = "3px solid #000";
 }
