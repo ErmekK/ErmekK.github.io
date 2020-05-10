@@ -469,8 +469,60 @@ hr{
 .footer-link a:hover{
    opacity: 0.7;
 }
+@media screen and (max-width:1024px){
+.wrapper{
+    width: 94%;
+}
+ .menu li a{
+    padding: 0;
+}
+.menu li a.logo{
+margin-right: 180px;
+margin-left: 15%;
+}
+.intro-img{
+    width: 800px;
+    background-position: -370px -250px;
+}
+.intro{
+    margin-top: 10px;
+}
+.intro .intro-text{
+    right: 400px;
+}
+.stats-text{
+    padding-left: 10px;
+}
+.card{
+    max-width: 300px;
+}
+.card img{
+    width: 300px;
+    height: 320px;
+}
+.cards{
+    grid-column-gap: 2.7%;
+}
+.step-block{
+    width: 300px;
+}
+.agent-card img {
+    max-width: 300px;
+    height: 320px;
+}
+.location-a{
+    left: 100px;
+}
+}
+
+
+
+
 
 @media screen and (max-width: 765px) {
+    .wrapper{
+        width: 100%;
+    }
     .toggle{
         clear: both;
         display: block;
@@ -529,8 +581,9 @@ hr{
         max-width: 100%;
     }
     .intro-img{
-        background-position: bottom 50px right 550px;
-        background-size:cover;
+        background-position: bottom 50px right 380px;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .intro .intro-text{
         position: relative;
@@ -677,5 +730,18 @@ hr{
         margin-left: 5%;
         padding-right: 5%;
     }
+.services{
+    width: 94%;
+}
+.agents h2{
+    margin-left: 3%;
+}
+.agents p{
+    margin-left: 3%;
+}
+.footer-links-logo {
+    margin-right: 52%;
+    margin-bottom: 10%;
 
+}
 }
